@@ -17,9 +17,14 @@
         }
 
         @media screen and (max-width: 600px) {
-        body {
-            max-width: 350px;
-        }
+            body {
+                max-width: 350px;
+                font-size: 6px;
+                
+            }
+            ul li{
+                font-size: 6px;
+            }
         }
 
         header {
@@ -77,10 +82,33 @@
             width: 20%;
         }
 
+        .download-container{
+            text-align: right;
+            margin-right: 25px;
+        }
+        .download-btn{
+            text-decoration: none;
+            color: #000;
+            border: 2px solid;
+            padding: 3px;
+        }
+        a:hover{
+            color: aliceblue;
+            background-color: #000;
+        }
+
+
     </style>
     </head>
 
     <body>
+    
+    <div class="download-container">
+        <a href="/my-cv-ats/CV_Muhammad Ramadhan Prinada.pdf" download class="download-btn">
+        Download CV
+        </a>
+    </div>
+    
 
     <header>
         <h2>MUHAMMAD RAMADHAN PRINADA</h2>
